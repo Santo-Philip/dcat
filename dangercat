@@ -17,9 +17,8 @@ apt update && apt upgrade -y
 apt install git -y
 _other_installs
 pip3 install -U pip
-git clone https://github.com/dangerbots/dangercat-plugins dcat
+git clone https://github.com/dangerbots/testplugins dcat
 cd dcat
 pip3 install -U -r requirements.txt
 _externals
-python3 -m Zaid
-
+python3 -m TelethonHell
